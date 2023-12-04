@@ -1,0 +1,247 @@
+.top_cart{
+height: 400px;
+background-image: url(fon55.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.big{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; 
+    margin-top: 127px;
+
+}
+.cart{
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+gap: 32px;
+margin-top: 64px;
+
+    &_name-box{
+        display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    }
+    &_itom{
+        border-top: 0.5px solid  #CACDD8;
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    &_left{
+        display: flex;
+        gap: 32px;
+        width: 173px;
+        height: 173px;
+    }
+    &_form{
+        border-radius: 20px;
+background: #F7F6F6;
+grid-column: span 4;
+text-align: center;
+padding-top: 42px;
+    }
+    &_content{
+        grid-column: span 8;
+    }
+    &_plat{
+        width: 71px;
+        height: 51px;
+        border-radius: 6px;
+        background: #F7F6F6;
+        outline: none;
+        border: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 210%;
+        color: #000;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+    &_igor{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #CACDD8;
+        color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+     font-style: normal; 
+     font-weight: 400; 
+    line-height: normal;
+    width: 288px;
+    }
+    &_oformi{
+        color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    &_result{
+        color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+    }
+    &_platon{
+        display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 27px;
+    gap: 44px;
+    padding-right: 183px;
+}
+    &_info{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    &_link{
+        display: flex;
+        gap: 30px;
+    }
+    &_button{
+        border-radius: 50px;
+border: 1px solid #000;
+display: inline-flex;
+padding: 10px 34px 10px 33px;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+&_but3{
+    border-radius: 50px;
+border: 1px solid #000;
+display: inline-flex;
+padding: 10px 34px 10px 33px;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+    &_box{
+        width: 190px;
+        align-self: center;
+        animation: myAnim 5s ease 0s infinite normal forwards;
+    }
+    @keyframes myAnim {
+        0% {
+            transform: scale(1);
+        }
+    
+        50% {
+            transform: scale(1.1);
+        }
+    
+        100% {
+            transform: scale(1);
+        }
+    }
+    }
+    
+    &_inna{
+        color: #888;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 276px;
+        height: 50px;
+    }
+    &_fedor{
+        color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    &_link{
+        color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+    }
+    &_box-button{
+        padding-top: 50px;
+    display: flex;
+    gap: 7px;
+}
+&_prince{
+    color: #050505;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+&_linkus{
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+    }
+    &_linkus:hover{
+        text-decoration: underline;
+    }
+
+    &_grecce{
+        display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 64px;
+    }
+}
+.img3{
+    height: 173px;
+    width: 173px;
+}
+.sec1{
+    padding-bottom: 74px;
+}
+.rub{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+    
+    
+    
+    
+    
